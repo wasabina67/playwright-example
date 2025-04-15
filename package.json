@@ -1,5 +1,9 @@
 {
   "devDependencies": {
     "@playwright/test": "^1.51.1"
+  },
+  "dependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
   }
 }
