@@ -1,4 +1,7 @@
 {
+  "scripts": {
+    "start": "ts-node run.ts"
+  },
   "devDependencies": {
     "@playwright/test": "^1.51.1"
   },
