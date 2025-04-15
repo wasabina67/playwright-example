@@ -1,6 +1,9 @@
 {
   "scripts": {
-    "start": "ts-node run.ts"
+    "dev": "ts-node run.ts",
+    "build": "tsc",
+    "run": "node dist/run.js",
+    "start": "npm run build && npm run run"
   },
   "devDependencies": {
     "@playwright/test": "^1.51.1"
